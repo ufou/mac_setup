@@ -225,8 +225,11 @@ To push code to your GitHub repositories, we're going to use the recommended HTT
 ## Vim
 
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
 brew install vim --with-python3 --with-lua --override-system-vim
+
 cp .vimrc ~/.vimrc
+
 
 ## Sublime Text
 
