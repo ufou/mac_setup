@@ -12,6 +12,7 @@ The document assumes you are new to Mac. The steps below were tested on **OS X M
 - [Beautiful terminal](#beautiful-terminal)
 - [Dotfile source control](#dotfile-source-control)
 - [Git](#git)
+- [Vim](#vim)
 - [Sublime Text](#sublime-text)
 - [Customize Sublime Text Packages](#customize-sublime-text-packages)
 - [Python](#python)
@@ -220,6 +221,12 @@ To push code to your GitHub repositories, we're going to use the recommended HTT
     $ git config --global credential.helper osxkeychain
 
 **Note**: On a Mac, it is important to remember to add `.DS_Store` (a hidden OS X system file that's put in folders) to your `.gitignore` files. You can take a look at this repository's [.gitignore](/nicolahery/mac-dev-setup/blob/master/.gitignore) file for inspiration.
+
+## Vim
+
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+brew install vim --with-python3 --with-lua --override-system-vim
+cp .vimrc ~/.vimrc
 
 ## Sublime Text
 
